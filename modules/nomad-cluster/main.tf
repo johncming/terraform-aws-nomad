@@ -208,7 +208,7 @@ data "aws_iam_policy_document" "instance_role" {
 
     principals {
       type        = "Service"
-      identifiers = ["ec2.amazonaws.com"]
+      identifiers = ["ec2.amazonaws.com.cn"]
     }
   }
 }
